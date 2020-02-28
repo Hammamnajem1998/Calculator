@@ -47,10 +47,7 @@
                 <pathelement location="${result.testclasses.dir}"/>
             </classpath>
             <formatter type="brief" usefile="false"/>
-            <batchtest >
-               
-            </batchtest>
-
+           
         </junit>
     </target>
 
