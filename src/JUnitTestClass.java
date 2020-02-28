@@ -44,7 +44,7 @@ class JUnitTestClass {
 	@Test
 	void test4() {
 		
-		int expected = 4000 ;
+		int expected = 400 ;
 		int actual = 0 ;
 		actual = Calculator.add(250,150);
 		
