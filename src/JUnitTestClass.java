@@ -50,6 +50,15 @@ class JUnitTestClass {
 		
 		assertEquals(expected, actual);
 	}
+	@Test
+	void test5() {
+		
+		int expected = 4000 ;
+		int actual = 0 ;
+		actual = Calculator.add(2500,1500);
+		
+		assertEquals(expected, actual);
+	}
 
 
 }
