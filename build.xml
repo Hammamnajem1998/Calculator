@@ -8,8 +8,6 @@
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
 
-	<property name="junit.class.dir" location="./myLibraries"/>
-	<property name="hamcrest.class.dir" location="./myLibraries"/>
 
 
 
@@ -45,8 +43,7 @@
         <junit printsummary="true" haltonfailure="true" fork="true">
             <classpath>
 				
-                <pathelement location="${junit.class.dir}/junit-4.12.jar"/>
-				<pathelement location="${hamcrest.class.dir}/hamcrest-core-1.3.jar"/>
+                <path refid="NecessaryLibraries"/>
                 <pathelement location="${result.javaclasses.dir}"/>
                 <pathelement location="${result.testclasses.dir}"/>
             </classpath>
