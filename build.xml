@@ -13,7 +13,7 @@
 
 
     <path id="NecessaryLibraries">
-        <pathelement location="./myLibraries/org.junit.jupiter.api.jar"/>
+        <pathelement location="./myLibraries/junit-4.12.jar"/>
         <!--matcher-->
         <pathelement location="./myLibraries/hamcrest-core-1.3.jar"/>
         <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
