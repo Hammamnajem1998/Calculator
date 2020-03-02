@@ -1,5 +1,5 @@
 
-<project default="compile">
+<project default="test">
 
 
     <property name="src.java.dir" location="./src"/>
@@ -13,9 +13,9 @@
 
 
     <path id="NecessaryLibraries">
-        <pathelement location="./myLibraries/junit-4.12.jar"/>
+        <pathelement location="C:/Users/Hammam/eclipse-workspace/TDDProject/myLibraries/junit-4.12.jar"/>
         <!--matcher-->
-        <pathelement location="./myLibraries/hamcrest-core-1.3.jar"/>
+        <pathelement location="C:/Users/Hammam/eclipse-workspace/TDDProject/myLibraries/hamcrest-core-1.3.jar"/>
         <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
     </path>
 
