@@ -13,9 +13,9 @@
 
 
     <path id="NecessaryLibraries">
-        <pathelement location="./myLibrariess/junit-4.12.jar"/>
+        <pathelement location="./myLibraries/junit-4.12.jar"/>
         <!--matcher-->
-        <pathelement location="./myLibrariess/hamcrest-core-1.3.jar"/>
+        <pathelement location="./myLibraries/hamcrest-core-1.3.jar"/>
         <!--<pathelement location="./UsedLibraries/jacocoant.jar"/>-->
     </path>
 
@@ -34,6 +34,7 @@
 
                 <path refid="NecessaryLibraries"/>
                 <pathelement location="${result.javaclasses.dir}"/>
+            	<pathelement location="${result.testclasses.dir}"/>
             </classpath>
         </javac>
     </target>
